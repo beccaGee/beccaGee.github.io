@@ -1,9 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap");
+
+
+.dancing-script-font {
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+}
+
+.playfair-font{
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+}
+
+h1.logo {
+  font-family: "Playfair", cursive;
+}
+
 html {
   height: 100%;
 }
 
 body {
-  background-color: white;
+  background-color: rgb(143, 188, 213);
   position: relative;
   min-height: 100vh;
   padding: 0;
@@ -33,7 +59,7 @@ main {
   align-items: center;
   text-align: center;
 
-  background-color: black;
+  background-color: white;
   color: white;
   padding: 0px 0px;
 
@@ -50,7 +76,7 @@ main {
 }
 
 .navbar a {
-  color: white;
+  color: rgb(5, 5, 5);
   font-weight: bold;
   margin: 0 12px;
   text-decoration: none;
@@ -63,8 +89,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   position: absolute;
   bottom: 0;
   width: 100%;
